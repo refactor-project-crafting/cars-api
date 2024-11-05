@@ -1,0 +1,15 @@
+name: El coso de los cosos
+
+on: push
+
+jobs:
+  coso:
+    runs-on: ubuntu-latest
+    name: El coso
+
+    steps:
+      - name: greet
+        run: echo "Holi"
+
+      - name: sayBye
+        run: echo "Adeu"
