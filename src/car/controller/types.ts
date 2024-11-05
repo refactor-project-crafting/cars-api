@@ -4,4 +4,3 @@ export interface CarsControllerStructure {
   get: (req: Request, res: Response) => void;
   delete: (req: Request, res: Response) => void;
 }
-asdfasdf;
